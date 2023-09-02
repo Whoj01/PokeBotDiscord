@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@discordjs/core": "^1.0.1",
+    "discord.js": "^14.13.0"
+  },
+  "name": "pokebotdiscord",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node-esm ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
