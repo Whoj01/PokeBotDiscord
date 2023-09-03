@@ -1,6 +1,6 @@
 import { REST } from '@discordjs/rest';
 import { WebSocketManager } from '@discordjs/ws';
-import { GatewayDispatchEvents, GatewayIntentBits, InteractionType, MessageFlags, Client } from '@discordjs/core';
+import { GatewayDispatchEvents, GatewayIntentBits, InteractionType, MessageFlags, Client, ButtonStyle, ComponentType } from '@discordjs/core';
 const TOKEN = 'MTE0NzYzMDQ0MzMyMDA3MDE1NA.GELKhU.d2eZNG1PR36pPo3IgibVxKgzH49pYGdPMTltXM'
 const APPID = '1147630443320070154'
 // Create REST and WebSocket managers directly
